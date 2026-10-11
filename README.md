@@ -11,4 +11,4 @@ An ocean general circulation model I rewrote from MITgcm in PyTorch and CUDA. Gr
 <img src="assets/flow.webp" width="100%" alt="Particle animation of 29 days of surface currents, MITgcm on the left and TorchOcean on the right">
 <sub>29 days of surface currents, South China Sea and western Pacific at 1/32°. MITgcm left, TorchOcean right; their rms difference stays below 1.3×10⁻⁴ m/s.</sub>
 
-Reported upstream to MITgcm: [#989](https://github.com/MITgcm/MITgcm/issues/989), fixed in [#990](https://github.com/MITgcm/MITgcm/pull/990); [#1039](https://github.com/MITgcm/MITgcm/issues/1039), with my fix [#1040](https://github.com/MITgcm/MITgcm/pull/1040) approved.
+Aligning TorchOcean with MITgcm turned up two defects in MITgcm itself, reported upstream: [#989](https://github.com/MITgcm/MITgcm/issues/989), fixed by [#990](https://github.com/MITgcm/MITgcm/pull/990) (merged); [#1039](https://github.com/MITgcm/MITgcm/issues/1039), my fix [#1040](https://github.com/MITgcm/MITgcm/pull/1040) approved and awaiting merge.
