@@ -6,7 +6,7 @@
 
 ### TorchOcean
 
-An ocean general circulation model I rewrote from MITgcm in PyTorch and CUDA. One GPU program computes forward integrations and their gradients, for 4D-Var data assimilation and for training neural networks inside the model.
+I rebuilt the ocean discretizations of MITgcm in PyTorch and CUDA so that one GPU program computes forward integrations and their gradients, for 4D-Var data assimilation and for training neural networks inside the model.
 
 <img src="assets/flow.webp" width="100%" alt="Particle animation of 29 days of surface currents, MITgcm on the left and TorchOcean on the right">
 <sub>29 days of surface currents, South China Sea and western Pacific at 1/32°. MITgcm left, TorchOcean right; the difference between them stays at the size of MITgcm's own rounding differences.</sub>
