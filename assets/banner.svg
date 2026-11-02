@@ -22,6 +22,6 @@ text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,"PingFang SC","Microso
 <text x="66" y="186" fill="#9fb6c4" font-size="27" letter-spacing="4">唐浩洋</text>
 <text x="66" y="244" fill="#d6e2e8" font-size="22">Differentiable ocean models on GPUs</text>
 <text x="66" y="276" fill="#8aa3b1" font-size="18">Physical oceanography, Chinese Academy of Sciences</text>
-<text x="1176" y="322" fill="#6f8b9a" font-size="13" text-anchor="end">TorchOcean surface currents, day 20, 105–129°E 13–22°N</text>
+<text x="1176" y="322" fill="#6f8b9a" font-size="13" text-anchor="end">DEFgcm surface currents, day 20, 105–129°E 13–22°N</text>
 </g>
 </svg>
